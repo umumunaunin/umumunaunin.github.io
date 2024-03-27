@@ -1,9 +1,9 @@
 #front {
   z-index: 1;
   position: absolute;
-  background-color: #0b6570;
-  width:590px;
-  height: 620px;
+  background-color: #3176b6;
+  width:600px;
+  height: 680px;
   text-align: center;
   transition: 1s;
   transform-origin: 0;
@@ -32,8 +32,8 @@
   z-index: 0;
   position: absolute;
   background-color: white;
-  width: 590px;
-  height: 620px;
+  width: 600px;
+  height: 680px;
   text-align: center;
   border: 1px solid #000;
   margin-left: auto;
@@ -45,7 +45,7 @@
 
 #inside-recipient {
   color: #000;
-  font-size: 12pt;
+  font-size: 14.5pt;
   padding: 20px 0 40px 0;
 }
 
@@ -56,21 +56,24 @@
 }
 
 #message {
-  font-size: 12pt;
+  font-size: 15pt;
   text-align: center;
   padding: 0 20px 0 20px;
 }
 
 #inside-sender {
   color: #000;
-  font-size: 12pt;
+  font-size: 14.5pt;
   text-align: center;
   padding: 0 20px 0 20px;
 }
 
 
 body {
-  font-family: 'Shadows Into Light Two', cursive;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 
   background: linear-gradient(-45deg, white, #fee4e1, #b4d3dd, #bab4dd);
   background-size: 400% 400%;
